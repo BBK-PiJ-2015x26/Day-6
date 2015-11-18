@@ -1,6 +1,12 @@
 public class Calculator {
 	
 	public static void main(String[] args) {
+		Calculator calculator = new Calculator();
+		System.out.println(calculator.add(1, 2));
+		System.out.println(calculator.subtract(5, 3));
+		System.out.println(calculator.multiply(10, 10));
+		System.out.println(calculator.division(10, 2));
+		System.out.println(calculator.modulus(10, 2));
 	
 	}
 	//Method for addition
