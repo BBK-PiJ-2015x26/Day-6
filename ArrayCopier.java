@@ -2,13 +2,13 @@ public class ArrayCopier {
 	
 	public static void main(String[] args) {
 		int[] srcArray1 = {1, 2, 3};
+		int[] srcArray2 = {1, 2, 3, 4};
 		int[] dstArray1 = {0, 0, 0};
 		ArrayCopier arrayCopier = new ArrayCopier();
 		arrayCopier.copy(srcArray1, dstArray1);
-		System.out.println(dstArray1[0])
-		System.out.println(dstArray1[1])
-		System.out.println(dstArray1[2])
-		// Just returns memory addresses when testing?
+		System.out.println(dstArray1[0]);
+		System.out.println(dstArray1[1]);
+		System.out.println(dstArray1[2]);
 	}
 
 	//Method to copy elements of first array to second array	
