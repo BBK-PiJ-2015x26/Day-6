@@ -18,7 +18,7 @@ public class Matrix {
 			System.out.println ("Out of range");
 			return;
 		}
-		maxtrix[a][b] = set;
+		maxtrix[a][b] = c;
 	}
 			
 		
