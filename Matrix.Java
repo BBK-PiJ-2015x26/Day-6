@@ -12,7 +12,7 @@ public class Matrix {
 	}
 	//Setter method
 	public void setElement(int a, int b, int c) {
-		if (a > array.length || b > array[0].length) {
+		if (a > array.length && b >= array[0].length) {
 			System.out.println ("Out of range");
 			return;
 		} else {
@@ -21,10 +21,18 @@ public class Matrix {
 		
 	}
 	//Method to set row
-	public void setRow(int x, String str) {
-		if 
+	public void setRow(int row, String str) {
+	// Count the numbers in a string
+		int count = 0;
+		for (int i=0; i < row; i++) {
+			if (str.charAT(i) == ',') {
+				count ++;
+			}
+			
+			count = count + 1 //Count will be one higher than number of commas
+		}
 		
-		
+		if (row < array.length && row >= 0 && count == array[row].length
 		
 		
 			
