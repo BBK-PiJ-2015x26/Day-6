@@ -28,11 +28,15 @@ public class Matrix {
 			if (str.charAT(i) == ',') {
 				count ++;
 			}
-			count = count + 1 //Count will be one higher than number of commas
+			count = count + 1 //Amount of numbers will be one higher than number of commas
 		}
-		if (count != array[0].length {
-			return
+		if (row < array.length && row >= 0 && count == array[row].length) {
+			return;
 		}
+		// Make string into array of numbers
+		int [] stringArray;
+		stringArray = new int[count(str)];
+		
 		
 		
 			
