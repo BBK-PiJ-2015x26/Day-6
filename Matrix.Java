@@ -22,7 +22,23 @@ public class Matrix {
 	}
 	//Method to set row
 	public void setRow(int row, String str) {
-	// Count the numbers in a string
+		//Return if string not in number comma format
+		if (str.equals(" ") {
+			return false;
+			}
+		}
+        while (valid && i < str.length()) {
+            if (Character.isDigit(str.charAt(i)) ||
+                    str.charAt(i) == ',') {
+                valid = true;
+            } else {
+                valid = false;
+            }
+            i++;
+        }
+        return valid;
+    }
+		// Count the numbers in a string
 		int count = 0;
 		for (int i=0; i < row; i++) {
 			if (str.charAT(i) == ',') {
@@ -30,8 +46,11 @@ public class Matrix {
 			}
 			count = count + 1 //Amount of numbers will be one higher than number of commas
 		}
-		if (row < array.length && row >= 0 && count == array[row].length) {
+	
+		if (count != array[0].length) {
 			return;
+		}
+		
 		}
 		// Make string into array of numbers
 		int [] stringArray;
