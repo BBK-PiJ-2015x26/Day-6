@@ -17,13 +17,24 @@ public class Matrixchecker {
 					return false;
 				}
 			}
+		}
 		return true;
 	}
 	
 	public boolean isTriangular(int[][] array) {
 		for (i=0; i < array.lenght; i++) {
-			for (j=0; j < array[0].length; i++) {
-				if (array[i][j] 
+			for (j=0; j < array[0].length; j++) {
+				if (i > j && arrayToTest[i][j] != 0) {
+					return false;
+				}
+			}
+		}	
+		return true;
+	}
+}
+
+		
+		
 				
 		
 		
